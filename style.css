@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+; 
+*{
+    margin:2px;
+    padding:2px;
+    box-sizing : border-box;
+    text-decoration:none;
+}
+
+body{
+    margin: 0;
+      padding: 0;
+      background: linear-gradient(120deg, white 50%,#2626c4 80%) ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-size: 100%;    
+      width: 100vw;
+      height: 100vh;
+    font-family: 'Noto Serif', serif;
+}
+
+nav-list{
+    list-style: none;
+    display: flex; 
+    height: 8vh;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.nav-lista{
+    display: flex;
+    list-style: none;
+}
+
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.cabecalho:first-child{
+    background-color: rgb(4, 16, 192);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color :rgb(227, 227, 236);
+
+}
+.imagem-texto{
+    display: flex;
+    align-items: center;
+    
+    margin-top: 15px;
+    flex-direction: column;
+
+
+}
+.link{
+    color: red;
+}
+#beneficios{
+    color :darkmagenta;
+}
+nav ul li{
+    margin-right:10px;  
+    margin-left: 10px;
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+    height: auto;
+    background-color: #2626c4;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+}
