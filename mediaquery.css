@@ -1,0 +1,9 @@
+@media screen and (min-width: 280px) and (max-width: 479px){
+    .logo{
+    width: 75px;
+    height: 75px;
+    float: left;
+    background: url(img/logomobile.png) center center/75px no-repeat;
+    font-size: 0;
+    }
+}
