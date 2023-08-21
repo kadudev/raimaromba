@@ -1,0 +1,51 @@
+@media screen and (min-width:600px) and (max-width: 919px){
+    .nav-list{
+        list-style:none;
+        display: flex;
+    }
+
+    li{
+        padding-left: 10px;
+    }
+}
+@media screen and (min-width: 920px) and (max-width: 1200px){
+    .nav-list{
+        list-style:none;
+        display: flex;
+    }
+
+    li{
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    
+
+}
+@media  screen and (min-width:1200px) {
+    .nav-list{
+        list-style:none;
+        display: flex;
+    }
+
+    li{
+        padding-left: 10px;
+    }   
+    .imagem-texto{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+@media screen and (min-width: 280px) and (max-width: 479px){
+    .logo{
+    width: 75px;
+    height: 75px;
+    float: left;
+    background: url(img/logomobile.png) center center/75px no-repeat;
+    font-size: 0;
+    }
+    .item list{
+        position: absolute;
+        bottom: 30px;
+    }
+}
+
